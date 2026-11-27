@@ -1,0 +1,22 @@
+name = "Kolberg"
+version = "0.1.0"
+keywords = ["math", "partitions", "number theory"]
+defaultTargets = ["Kolberg"]
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[require]]
+name = "PentagonalNumber"
+git = "https://github.com/wwylele/PentagonalNumberTheorem"
+rev = "07ed8a020453aa406d73801182c7ce85c7c9d4cc"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "412e7b8df34e43e0f66f61e3453eee0d54b09f7a"
+
+[[lean_lib]]
+name = "Kolberg"

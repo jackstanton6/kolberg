@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+<defs><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#1b2230" stroke-width="1"/></pattern>
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="960" height="620" rx="14" fill="#0b0f17"/><rect width="960" height="620" rx="14" fill="url(#g)"/>
+<style>.t{font:600 14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.s{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#aab4c3}.l{font:12px ui-sans-serif,system-ui,sans-serif;fill:#aab4c3}</style>
+<path d="M480,81.0 C480,110.0 480,110.0 480,139.0" fill="none" stroke="#58a6ff" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="480" cy="139.0" r="3.5" fill="#58a6ff"/>
+<path d="M480,201.0 C480,235.0 170,235.0 170,269.0" fill="none" stroke="#58a6ff" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="170" cy="269.0" r="3.5" fill="#58a6ff"/>
+<path d="M480,201.0 C480,235.0 480,235.0 480,269.0" fill="none" stroke="#58a6ff" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="480" cy="269.0" r="3.5" fill="#58a6ff"/>
+<path d="M480,201.0 C480,235.0 790,235.0 790,269.0" fill="none" stroke="#58a6ff" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="790" cy="269.0" r="3.5" fill="#58a6ff"/>
+<path d="M170,331.0 C170,360.0 170,360.0 170,389.0" fill="none" stroke="#c084fc" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="170" cy="389.0" r="3.5" fill="#c084fc"/>
+<path d="M480,331.0 C480,360.0 480,360.0 480,389.0" fill="none" stroke="#3fb950" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="480" cy="389.0" r="3.5" fill="#3fb950"/>
+<path d="M170,451.0 C170,482.5 170,482.5 170,514.0" fill="none" stroke="#c084fc" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="170" cy="514.0" r="3.5" fill="#c084fc"/>
+<path d="M170,451.0 C170,482.5 480,482.5 480,514.0" fill="none" stroke="#3fb950" stroke-opacity="0.55" stroke-width="2"/>
+<circle cx="480" cy="514.0" r="3.5" fill="#3fb950"/>
+<g filter="url(#glow)"><rect x="310.0" y="19.0" width="340" height="62" rx="10" fill="#3a3000" stroke="#f5c542" stroke-width="1.6"/></g>
+<text class="t" x="480" y="45" text-anchor="middle" fill="#f5c542">Kolberg.infinite_even  ·  infinite_odd</text>
+<text class="s" x="480" y="66" text-anchor="middle">p(n) is even infinitely often, odd infinitely often</text>
+<g><rect x="340.0" y="139.0" width="280" height="62" rx="10" fill="#0d2240" stroke="#58a6ff" stroke-width="1.6"/></g>
+<text class="t" x="480" y="165" text-anchor="middle" fill="#58a6ff">not_eventually_const</text>
+<text class="s" x="480" y="186" text-anchor="middle">p(m) mod 2 is never eventually constant</text>
+<g><rect x="30.0" y="269.0" width="280" height="62" rx="10" fill="#0d2240" stroke="#58a6ff" stroke-width="1.6"/></g>
+<text class="t" x="170" y="295" text-anchor="middle" fill="#58a6ff">recurrence_mod_two</text>
+<text class="s" x="170" y="316" text-anchor="middle">Σₖ p(n − k(3k−1)/2) = 0   (mod 2)</text>
+<g><rect x="340.0" y="269.0" width="280" height="62" rx="10" fill="#0d2240" stroke="#58a6ff" stroke-width="1.6"/></g>
+<text class="t" x="480" y="295" text-anchor="middle" fill="#58a6ff">pent_gap</text>
+<text class="s" x="480" y="316" text-anchor="middle">gap below (j+1)(3j+2)/2 is 2j+1</text>
+<g><rect x="650.0" y="269.0" width="280" height="62" rx="10" fill="#0d2240" stroke="#58a6ff" stroke-width="1.6"/></g>
+<text class="t" x="790" y="295" text-anchor="middle" fill="#58a6ff">telescoping step</text>
+<text class="s" x="790" y="316" text-anchor="middle">rec(G) − rec(G−1) = p(0) = 1 ≠ 0  (mod 2)</text>
+<g><rect x="30.0" y="389.0" width="280" height="62" rx="10" fill="#2a1245" stroke="#c084fc" stroke-width="1.6"/></g>
+<text class="t" x="170" y="415" text-anchor="middle" fill="#c084fc">Nat.Partition.sum_partition</text>
+<text class="s" x="170" y="436" text-anchor="middle">Σₖ (−1)ᵏ p(n − k(3k−1)/2) = 0</text>
+<g><rect x="340.0" y="389.0" width="280" height="62" rx="10" fill="#0f2e18" stroke="#3fb950" stroke-width="1.6"/></g>
+<text class="t" x="480" y="415" text-anchor="middle" fill="#3fb950">nlinarith</text>
+<text class="s" x="480" y="436" text-anchor="middle">nonlinear integer arithmetic</text>
+<g><rect x="30.0" y="514.0" width="280" height="62" rx="10" fill="#2a1245" stroke="#c084fc" stroke-width="1.6"/></g>
+<text class="t" x="170" y="540" text-anchor="middle" fill="#c084fc">pentagonal number theorem</text>
+<text class="s" x="170" y="561" text-anchor="middle">∏ (1 − xⁿ) = Σₖ (−1)ᵏ x^(k(3k−1)/2)</text>
+<g><rect x="340.0" y="514.0" width="280" height="62" rx="10" fill="#0f2e18" stroke="#3fb950" stroke-width="1.6"/></g>
+<text class="t" x="480" y="540" text-anchor="middle" fill="#3fb950">Euler generating function</text>
+<text class="s" x="480" y="561" text-anchor="middle">Σ p(n) xⁿ = ∏ 1 / (1 − xⁿ)</text>
+<text class="t" x="700" y="450" fill="#e6edf3">Source</text>
+<rect x="700" y="461" width="16" height="14" rx="3" fill="#3a3000" stroke="#f5c542"/><text class="l" x="726" y="472">main theorem</text>
+<rect x="700" y="485" width="16" height="14" rx="3" fill="#0d2240" stroke="#58a6ff"/><text class="l" x="726" y="496">this repo</text>
+<rect x="700" y="509" width="16" height="14" rx="3" fill="#2a1245" stroke="#c084fc"/><text class="l" x="726" y="520">PentagonalNumber (W. Wang)</text>
+<rect x="700" y="533" width="16" height="14" rx="3" fill="#0f2e18" stroke="#3fb950"/><text class="l" x="726" y="544">Mathlib</text>
+</svg>
