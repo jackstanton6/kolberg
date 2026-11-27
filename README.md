@@ -1,6 +1,6 @@
 # Kolberg's theorem in Lean 4
 
-[![Lean CI](https://github.com/jackstanton6/kolberg/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+[![Lean CI](https://github.com/jackstanton6/kolberg/actions/workflows/ci.yml/badge.svg)](https://github.com/jackstanton6/kolberg/actions/workflows/ci.yml)
 
 A `sorry`-free Lean 4 / Mathlib proof of **Kolberg's theorem (1959)**: the partition function
 $p(n)$ takes even values infinitely often and odd values infinitely often.
